@@ -5,7 +5,7 @@
 	"license": "",
 	"type": "module",
 	"private": true,
-	"homepage": "https://dmytro24.github.io/adapt-shopCart-page-funiro/",
+	"homepage": "https://dmytro24.github.io/shop-cart_funiro/",
 	"scripts": {
 		"start": "npm i --legacy-peer-deps",
 		"dev": "gulp && webpack serve --progress -c config/webpack.dev.js",
