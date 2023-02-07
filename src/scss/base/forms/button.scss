@@ -1,0 +1,23 @@
+//<BUTTONS (a.btn+tab)>
+// Снипет (HTML): btn
+
+.button {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px rem(15);
+	text-align: center;
+	transition: all 0.3s ease 0s;
+	min-height: rem(48);
+	// .button_white
+    &_white {
+		color: $Orandg;
+		background-color: #fff;
+		@media (any-hover: hover){
+			&:hover{
+				background-color: $Orandg;
+				color: #fff;
+			}
+		}
+    }
+}
