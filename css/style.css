@@ -173,6 +173,13 @@ h6 {
   font-size: inherit;
 }
 
+body {
+  -webkit-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+  opacity: 1;
+}
+
 .lock body {
   overflow: hidden;
   -ms-touch-action: none;
